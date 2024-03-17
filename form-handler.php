@@ -3,7 +3,7 @@ $name=$_post['name'];
 $visitor_email=$_post['email'];
 $subject=$_post['subjext'];
 $massage=$_post['message'];
-$email_form='hzkubest6@gmail.com';
+$email_form='https://blackconstruction.github.io/black.org/';
 
 $email_subject='New Form Submission';
 
