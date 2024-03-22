@@ -30,6 +30,9 @@ modeSwitch.addEventListener('change', () => {
 });
 
 
+
+let navlinks = document.querySelector('.navlinks');
+
 // Dummy user data
 let users = [];
 
