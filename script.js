@@ -31,7 +31,7 @@ modeSwitch.addEventListener('change', () => {
 
 
 
-let navlinks = document.querySelector('.navlinks');
+
 
 // Dummy user data
 let users = [];
@@ -69,4 +69,12 @@ function signup() {
         users.push({ username, password });
         document.getElementById('signupMessage').innerText = 'Signup Successful!';
     }
+}
+var navlinks =document.getElementById("navlinks")
+    
+function showmenu(){
+  navlinks.style.right = "0"
+}
+ function hidemenu(){
+  navlinks.style.right = "-200px"
 }
