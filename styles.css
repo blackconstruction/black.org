@@ -6,7 +6,6 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:  url(eduford_img/backgroud\ image.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -49,7 +48,7 @@ position: relative;
 }
 .text-box{
     width:90% ;
-    color: #fff;
+    color: black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -62,7 +61,7 @@ position: relative;
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #fff;
+    color:black;
 }
 .herobtn{
     display: inline-block;
@@ -579,8 +578,8 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 .dark-mode {
-    background-color: #222; /* Dark mode background color */
-    color: #fff; /* Dark mode text color */
+    background-color: #222; 
+    color: #fff; 
 }
 .footer a{
     color: black;
